@@ -21,6 +21,7 @@ mod context_action;
 pub mod dialog;
 mod key_bind;
 pub(crate) mod large_image;
+mod lazy;
 pub(crate) mod load_image;
 mod localize;
 mod menu;

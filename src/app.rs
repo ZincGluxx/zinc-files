@@ -65,10 +65,12 @@ use crate::config::{
 };
 use crate::dialog::{Dialog, DialogKind, DialogMessage, DialogResult, DialogSettings};
 use crate::key_bind::key_binds;
+use crate::lazy::Lazy;
 use crate::localize::LANGUAGE_SORTER;
 use crate::mime_app::{self, MimeApp, MimeAppCache, MimeAppMatch};
 use crate::mounter::{
     MOUNTERS, MounterAuth, MounterItem, MounterItems, MounterKey, MounterMessage,
+    has_mounter_backend,
 };
 use crate::operation::{
     Controller, Operation, OperationError, OperationErrorType, OperationSelection, ReplaceResult,
@@ -713,6 +715,45 @@ impl Window {
     }
 }
 
+type CompioTask = Pin<Box<dyn Future<Output = ()> + Send>>;
+type CompioSender = mpsc::Sender<CompioTask>;
+
+/// The dedicated compio runtime and OS thread, created on the first operation
+/// that needs asynchronous file I/O.
+struct CompioRuntime {
+    sender: Lazy<CompioSender>,
+}
+
+impl CompioRuntime {
+    const fn new() -> Self {
+        Self {
+            sender: Lazy::new(),
+        }
+    }
+
+    fn sender(&mut self) -> CompioSender {
+        self.sender.get_or_init(start_compio_runtime).clone()
+    }
+}
+
+fn start_compio_runtime() -> CompioSender {
+    // Supports io_uring on Linux, IOCP on Windows, and polling everywhere else.
+    let (compio_tx, mut compio_rx) = mpsc::channel::<CompioTask>(1);
+    let tokio_handle = tokio::runtime::Handle::current();
+    std::thread::spawn(move || {
+        let _tokio = tokio_handle.enter();
+        compio::runtime::RuntimeBuilder::new()
+            .build()
+            .unwrap()
+            .block_on(async move {
+                while let Some(task) = compio_rx.recv().await {
+                    compio::runtime::spawn(task).detach();
+                }
+            });
+    });
+    compio_tx
+}
+
 // The [`App`] stores application-specific state.
 pub struct App {
     core: Core,
@@ -726,7 +767,7 @@ pub struct App {
     state: State,
     mode: Mode,
     app_themes: Vec<String>,
-    compio_tx: mpsc::Sender<Pin<Box<dyn Future<Output = ()> + Send>>>,
+    compio_runtime: CompioRuntime,
     context_page: ContextPage,
     dialog_pages: DialogPages,
     dialog_text_input: widget::Id,
@@ -1264,7 +1305,7 @@ impl App {
     fn operation(&mut self, operation: Operation) -> Task<Message> {
         let id = self.pending_operation_id;
         let controller = Controller::default();
-        let compio_tx = self.compio_tx.clone();
+        let compio_tx = self.compio_runtime.sender();
 
         self.pending_operation_id += 1;
         if operation.show_progress_notification() {
@@ -1779,7 +1820,7 @@ impl App {
                 .divider_above()
         });
 
-        if !MOUNTERS.is_empty() {
+        if has_mounter_backend() {
             nav_model = nav_model.insert(|b| {
                 b.text(fl!("networks"))
                     .icon(icon::icon(
@@ -2366,22 +2407,6 @@ impl Application for App {
             Mode::Desktop => tab::Mode::Desktop,
         });
 
-        // Create a dedicated thread for the compio runtime to handle operations on.
-        // Supports io_uring on Linux, IOPC on Windows, and polling everywhere else.
-        let (compio_tx, mut compio_rx) = mpsc::channel(1);
-        let tokio_handle = tokio::runtime::Handle::current();
-        std::thread::spawn(move || {
-            let _tokio = tokio_handle.enter();
-            compio::runtime::RuntimeBuilder::new()
-                .build()
-                .unwrap()
-                .block_on(async move {
-                    while let Some(task) = compio_rx.recv().await {
-                        compio::runtime::spawn(task).detach();
-                    }
-                });
-        });
-
         let about = About::default()
             .name(fl!("cosmic-files"))
             .icon(icon::from_name(Self::APP_ID))
@@ -2414,7 +2439,7 @@ impl Application for App {
             state: flags.state,
             mode: flags.mode,
             app_themes,
-            compio_tx,
+            compio_runtime: CompioRuntime::new(),
             context_page: ContextPage::Preview(None, PreviewKind::Selected),
             dialog_pages: DialogPages::new(),
             dialog_text_input: widget::Id::new("Dialog Text Input"),

@@ -126,6 +126,14 @@ pub struct MounterKey(pub &'static str);
 pub type MounterMap = BTreeMap<MounterKey, Box<dyn Mounter>>;
 pub type Mounters = Arc<MounterMap>;
 
+/// Whether a mounter backend is compiled in.
+///
+/// This must not inspect [`MOUNTERS`], because initializing that registry also
+/// starts the GVfs worker thread and its GIO volume monitor.
+pub const fn has_mounter_backend() -> bool {
+    cfg!(feature = "gvfs")
+}
+
 pub fn mounters() -> Mounters {
     #[allow(unused_mut)]
     let mut mounters = MounterMap::new();
@@ -139,3 +147,13 @@ pub fn mounters() -> Mounters {
 }
 
 pub static MOUNTERS: LazyLock<Mounters> = LazyLock::new(mounters);
+
+#[cfg(test)]
+mod tests {
+    use super::has_mounter_backend;
+
+    #[test]
+    fn backend_presence_matches_compiled_features() {
+        assert_eq!(has_mounter_backend(), cfg!(feature = "gvfs"));
+    }
+}
