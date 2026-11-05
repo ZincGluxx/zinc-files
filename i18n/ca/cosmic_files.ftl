@@ -1,4 +1,4 @@
-cosmic-files = Fitxers del COSMIC
+cosmic-files = Fitxers del Zinc
 empty-folder = Carpeta buida
 empty-folder-hidden = Carpeta buida (conté elements ocults)
 no-results = No s'ha trobat cap resultat
@@ -341,7 +341,7 @@ show-hidden-files = Mostra els fitxers ocults
 list-directories-first = Mostra els directoris primer
 gallery-preview = Vista prèvia en galeria
 menu-settings = Configuració...
-menu-about = Quant a Fitxers del COSMIC...
+menu-about = Quant a Fitxers del Zinc...
 
 ## Sort
 
@@ -357,7 +357,7 @@ extract-to-title = Extreu a una carpeta
 empty-trash-title = Voleu buidar la paperera?
 extract-to = Extreu a...
 delete = Suprimeix
-comment = Gestor de fitxers de l'escriptori COSMIC
+comment = Gestor de fitxers de l'escriptori Zinc
 copy-to-title = Escolliu el destí de la còpia
 copy-to-button-label = Copia
 move-to-title = Escolliu el destí del trasllat

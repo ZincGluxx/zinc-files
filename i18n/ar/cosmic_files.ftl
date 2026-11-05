@@ -1,5 +1,5 @@
-cosmic-files = ملفات COSMIC
-comment = مدير ملفات لسطح مكتب COSMIC
+cosmic-files = ملفات Zinc
+comment = مدير ملفات لسطح مكتب Zinc
 keywords = مجلد;ملف;مدير;
 empty-folder = مجلد فارغ
 empty-folder-hidden = مجلد فارغ (يحتوي على عناصر مخفية)
@@ -131,7 +131,7 @@ list-view = عرض اللائحة
 show-hidden-files = أظهر الملفات المخفية
 list-directories-first = اسرد المجلدات اولاً
 menu-settings = الإعدادات...
-menu-about = عن مدير ملفات COSMIC...
+menu-about = عن مدير ملفات Zinc...
 dismiss = أهمِل الرسالة
 no-results = لم يُعثر على نتائج
 networks = الشبكات

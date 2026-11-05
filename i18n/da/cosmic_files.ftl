@@ -1,4 +1,4 @@
-cosmic-files = COSMIC Filhåndtering
+cosmic-files = Zinc Filhåndtering
 empty-folder = Tom mappe
 empty-folder-hidden = Tom mappe (har skjulte emner)
 no-results = Fandt ingen resultater
@@ -303,7 +303,7 @@ show-hidden-files = Vis skjulte filer
 list-directories-first = List mapper først
 gallery-preview = Galleri-forhåndsvisning
 menu-settings = Indstillinger...
-menu-about = Om COSMIC Filer...
+menu-about = Om Zinc Filer...
 
 ## Sort
 
@@ -323,7 +323,7 @@ extract-to = Udpak Til...
 extract-to-title = Udpak til mappe
 empty-trash-title = Tøm papirkurv?
 keywords = Mappe;Håndtering;
-comment = Filhåndteringsprogram til COSMIC-skrivebordet
+comment = Filhåndteringsprogram til Zinc-skrivebordet
 copy-to-title = Vælg kopi destination
 copy-to-button-label = Kopier
 move-to-title = Vælg flytte destination

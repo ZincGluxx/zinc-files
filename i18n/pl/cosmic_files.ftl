@@ -1,5 +1,5 @@
-cosmic-files = Pliki COSMIC
-comment = Menedżer plików dla środowiska COSMIC
+cosmic-files = Pliki Zinc
+comment = Menedżer plików dla środowiska Zinc
 keywords = Katalogi;Pliki;Menedżer;
 empty-folder = Pusty katalog
 empty-folder-hidden = Pusty katalog (z ukrytymi plikami)
@@ -412,7 +412,7 @@ show-hidden-files = Pokaż ukryte pliki
 list-directories-first = Najpierw wyświetlaj katalogi
 gallery-preview = Podgąd galerii
 menu-settings = Ustawienia…
-menu-about = O Plikach COSMIC…
+menu-about = O Plikach Zinc…
 
 ## Sort
 

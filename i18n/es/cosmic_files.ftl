@@ -1,5 +1,5 @@
-cosmic-files = Archivos COSMIC
-comment = Gestor de archivos de COSMIC
+cosmic-files = Archivos Zinc
+comment = Gestor de archivos de Zinc
 keywords = Archivos;Ficheros;Gestor;Explorador;
 empty-folder = Carpeta vacía
 empty-folder-hidden = Carpeta vacía (Contiene archivos ocultos)
@@ -398,7 +398,7 @@ show-hidden-files = Mostrar archivos ocultos
 list-directories-first = Enumerar los directorios primero
 gallery-preview = Vista previa de la galería
 menu-settings = Configuración...
-menu-about = Acerca de COSMIC Files...
+menu-about = Acerca de Zinc Files...
 
 ## Sort
 

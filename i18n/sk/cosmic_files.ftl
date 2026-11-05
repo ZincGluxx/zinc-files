@@ -1,5 +1,5 @@
-cosmic-files = Súbory COSMIC
-comment = Správca súborov pre prostredie COSMIC
+cosmic-files = Súbory Zinc
+comment = Správca súborov pre prostredie Zinc
 keywords = Priečinok;Správca;Súbory;Manažér;Prehliadač;
 empty-folder = Priečinok je prázdny
 empty-folder-hidden = Priečinok je prázdny (obsahuje skryté položky)
@@ -444,7 +444,7 @@ show-hidden-files = Zobraziť skryté súbory
 list-directories-first = Najskôr priečinky
 gallery-preview = Náhľad galérie
 menu-settings = Nastavenia...
-menu-about = O aplikácii Súbory COSMIC...
+menu-about = O aplikácii Súbory Zinc...
 
 ## Sort
 

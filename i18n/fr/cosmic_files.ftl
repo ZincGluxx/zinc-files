@@ -1,4 +1,4 @@
-cosmic-files = Fichiers COSMIC
+cosmic-files = Fichiers Zinc
 empty-folder = Dossier vide
 empty-folder-hidden = Dossier vide (contient des éléments cachés)
 no-results = Aucun résultat trouvé
@@ -389,7 +389,7 @@ show-hidden-files = Afficher les fichiers cachés
 list-directories-first = Lister les répertoires en premier
 gallery-preview = Aperçu de la galerie
 menu-settings = Paramètres...
-menu-about = À propos de Fichiers COSMIC...
+menu-about = À propos de Fichiers Zinc...
 
 ## Sort
 
@@ -431,7 +431,7 @@ move-to-title = Sélectionner la destination du déplacement
 move-to-button-label = Déplacer
 copy-to = Copier vers...
 move-to = Déplacer vers...
-comment = Explorateur de fichiers pour le bureau COSMIC
+comment = Explorateur de fichiers pour le bureau Zinc
 keywords = Dossier;Gestionnaire;
 show-recents = Dossier Récents dans la barre latérale
 copy-path = Copier le chemin

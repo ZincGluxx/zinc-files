@@ -1,5 +1,5 @@
-cosmic-files = COSMIC Files
-comment = File manager for the COSMIC desktop
+cosmic-files = Zinc Files
+comment = File manager for the Zinc desktop
 keywords = Folder;Manager;
 empty-folder = Empty folder
 empty-folder-hidden = Empty folder (has hidden items)
@@ -386,7 +386,7 @@ show-hidden-files = Show hidden files
 list-directories-first = List directories first
 gallery-preview = Gallery preview
 menu-settings = Settings...
-menu-about = About COSMIC Files...
+menu-about = About Zinc Files...
 
 ## Sort
 sort = Sort

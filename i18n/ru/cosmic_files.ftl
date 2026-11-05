@@ -240,7 +240,7 @@ list-view = Список
 show-hidden-files = Показывать скрытые файлы
 list-directories-first = Показывать сначала папки
 menu-settings = Параметры...
-menu-about = О приложении Файлы COSMIC...
+menu-about = О приложении Файлы Zinc...
 
 ## Sort
 
@@ -376,7 +376,7 @@ move-to-title = Выберите папку назначения
 move-to-button-label = Переместить
 copy-to = Копировать в...
 move-to = Переместить в...
-comment = Файловый менеджер для среды COSMIC
+comment = Файловый менеджер для среды Zinc
 keywords = Папка;Менеджер;
 show-recents = «Недавние документы» в бок. панели
 clear-recents-history = Очистить историю недавних

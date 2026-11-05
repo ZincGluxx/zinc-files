@@ -8,20 +8,20 @@
   <update_contact>jeremy@system76.com</update_contact>
   <url type="homepage">https://github.com/pop-os/cosmic-files</url>
   <url type="bugtracker">https://github.com/pop-os/cosmic-files</url>
-  <name>COSMIC Files</name>
-  <summary>File manager for the COSMIC desktop</summary>
+  <name>Zinc Files</name>
+  <summary>File manager for the Zinc desktop</summary>
   <description>
-    <p>File manager for the COSMIC desktop</p>
-    <p xml:lang="ar">مدير ملفات لسطح مكتب COSMIC</p>
-    <p xml:lang="cs">Správce souborů pro prostředí COSMIC</p>
-    <p xml:lang="pl">Menedżer plików pulpitu COSMIC</p>
-    <p xml:lang="hu">Fájlkezelő a COSMIC asztali környezethez</p>
-    <p xml:lang="pt_BR">Gerenciador de arquivos do COSMIC</p>
-    <p xml:lang="pt">Gerenciador de arquivos do COSMIC</p>
-    <p xml:lang="sk">Správca súborov pre prostredie COSMIC</p>
-    <p xml:lang="es">Gestor de archivos de COSMIC</p>
-    <p xml:lang="it">File manager di COSMIC</p>
-    <p xml:lang="sv">Filhanterare för skrivbordsmiljön COSMIC</p>
+    <p>File manager for the Zinc desktop</p>
+    <p xml:lang="ar">مدير ملفات لسطح مكتب Zinc</p>
+    <p xml:lang="cs">Správce souborů pro prostředí Zinc</p>
+    <p xml:lang="pl">Menedżer plików pulpitu Zinc</p>
+    <p xml:lang="hu">Fájlkezelő a Zinc asztali környezethez</p>
+    <p xml:lang="pt_BR">Gerenciador de arquivos do Zinc</p>
+    <p xml:lang="pt">Gerenciador de arquivos do Zinc</p>
+    <p xml:lang="sk">Správca súborov pre prostredie Zinc</p>
+    <p xml:lang="es">Gestor de archivos de Zinc</p>
+    <p xml:lang="it">File manager di Zinc</p>
+    <p xml:lang="sv">Filhanterare för skrivbordsmiljön Zinc</p>
   </description>
   <keywords>
     <keyword>Folder</keyword>

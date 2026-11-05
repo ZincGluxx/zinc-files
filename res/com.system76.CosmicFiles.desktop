@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=COSMIC Files
-Comment=File manager for the COSMIC desktop
+Name=Zinc Files
+Comment=File manager for the Zinc desktop
 Exec=cosmic-files %U
 Terminal=false
 Type=Application

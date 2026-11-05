@@ -1,5 +1,5 @@
-cosmic-files = COSMIC Filer
-comment = Filhanterare för skrivbordsmiljön COSMIC
+cosmic-files = Zinc Filer
+comment = Filhanterare för skrivbordsmiljön Zinc
 keywords = Folder;Katalog;Mapp;Manager;
 empty-folder = Mappen är tom
 empty-folder-hidden = Mappen är tom (har dolda objekt)
@@ -320,7 +320,7 @@ show-hidden-files = Visa dolda filer
 list-directories-first = Lista mappar först
 gallery-preview = Galleriförhandsvisning
 menu-settings = Inställningar...
-menu-about = Om COSMIC Filer...
+menu-about = Om Zinc Filer...
 
 ## Sortera
 

@@ -6,7 +6,7 @@ Also, please search existing issues (both open and closed) to make sure what you
 If this is a question or general discussion topic, please start a conversation in our chat https://chat.pop-os.org in the ~cosmic-epoch channel.
 -->
 
-**Cosmic-files version:**
+**Zinc-files version:**
 <!-- (run `apt policy cosmic-files`, or the appropriate substitution for your package manager) -->
 
 **Issue/Bug description:**

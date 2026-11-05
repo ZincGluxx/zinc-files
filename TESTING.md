@@ -1,6 +1,6 @@
 # Testing
 
-This document provides a regression testing checklist for COSMIC Files. The checklist provides a starting point for Quality Assurance reviews.
+This document provides a regression testing checklist for Zinc Files. The checklist provides a starting point for Quality Assurance reviews.
 
 ## Checklist
 

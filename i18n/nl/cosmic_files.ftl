@@ -1,4 +1,4 @@
-cosmic-files = COSMIC Bestanden
+cosmic-files = Zinc Bestanden
 empty-folder = Lege map
 empty-folder-hidden = Lege map (met verborgen items)
 no-results = Geen resultaten gevonden
@@ -394,7 +394,7 @@ show-hidden-files = Verborgen bestanden tonen
 list-directories-first = Mappen bovenaan weergeven
 gallery-preview = Galerijweergave
 menu-settings = Instellingen…
-menu-about = Over COSMIC Bestanden…
+menu-about = Over Zinc Bestanden…
 
 ## Sort
 
@@ -425,7 +425,7 @@ removed-from-recents =
     } uit { recents } verwijderd
 remove-from-recents = Uit recente verwijderen
 type-to-search-select = Dit selecteert het eerst overeenkomende bestand of map
-comment = Bestandsbeheerder voor COSMIC
+comment = Bestandsbeheerder voor Zinc
 copy-to-title = Kopieerbestemming aanwijzen
 copy-to-button-label = Kopiëren
 move-to-button-label = Verplaatsen

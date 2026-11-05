@@ -1,5 +1,5 @@
-cosmic-files = Ficheiros COSMIC
-comment = Gerenciador de arquivos do COSMIC
+cosmic-files = Ficheiros Zinc
+comment = Gerenciador de arquivos do Zinc
 keywords = Pasta;Gestor;
 empty-folder = Pasta vazia
 empty-folder-hidden = Pasta vazia (tem ficheiros ocultos)
@@ -190,7 +190,7 @@ list-view = Visualização em lista
 show-hidden-files = Mostrar ficheiros ocultos
 list-directories-first = Listar primeiro os diretórios
 menu-settings = Definições...
-menu-about = Acerca do Ficheiros COSMIC...
+menu-about = Acerca do Ficheiros Zinc...
 repository = Repositório
 support = Suporte
 details = Detalhes

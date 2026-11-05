@@ -1,4 +1,4 @@
-cosmic-files = COSMIC 文件管理器
+cosmic-files = Zinc 文件管理器
 empty-folder = 空文件夹
 empty-folder-hidden = 空文件夹（包含隐藏项目）
 no-results = 未找到结果
@@ -406,7 +406,7 @@ show-hidden-files = 显示隐藏文件
 list-directories-first = 优先列出目录
 gallery-preview = 图库预览
 menu-settings = 设置…
-menu-about = 关于 COSMIC 文件…
+menu-about = 关于 Zinc 文件…
 
 ## Sort
 
@@ -431,7 +431,7 @@ move-to-title = 选择移动目的地
 move-to-button-label = 移动
 copy-to = 复制至…
 move-to = 移动至…
-comment = COSMIC 桌面的文件管理器
+comment = Zinc 桌面的文件管理器
 keywords = 文件夹;管理器;
 clear-recents-history = 清除最近访问历史
 copy-path = 复制文件路径

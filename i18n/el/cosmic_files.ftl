@@ -2,12 +2,12 @@ empty-folder = Άδειος φάκελος
 no-results = Δεν βρέθηκαν αποτελέσματα
 trash = Απορρίμματα
 recents = Πρόσφατα
-cosmic-files = Αρχεία COSMIC
+cosmic-files = Αρχεία Zinc
 empty-folder-hidden = Άδειος φάκελος (περιέχει κρυφά στοιχεία)
 filesystem = Σύστημα αρχείων
 home = Προσωπικός φάκελος
 networks = Δίκτυα
-comment = Διαχείριση αρχείων για το περιβάλλον επιφάνειας εργασίας COSMIC
+comment = Διαχείριση αρχείων για το περιβάλλον επιφάνειας εργασίας Zinc
 keywords = Αρχείο;Φάκελος;Διαχείριση;Folder;Manager;
 rename = Μετονομασία...
 close-tab = Κλείσιμο καρτέλας
@@ -131,7 +131,7 @@ compressing =
        *[other] στοιχείων
     } από τον φάκελο «{ $from }» στο αρχείο «{ $to }» ({ $progress })...
 move-to-trash = Μετακίνηση στα απορρίμματα
-menu-about = Σχετικά με τα Αρχεία COSMIC...
+menu-about = Σχετικά με τα Αρχεία Zinc...
 setting-executable-and-launching = Ορισμός του «{ $name }» ως εκτελέσιμου και εκκίνηση
 open-multiple-files = Άνοιγμα πολλαπλών αρχείων
 menu-open-with = Άνοιγμα με...

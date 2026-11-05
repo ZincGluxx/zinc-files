@@ -1,4 +1,4 @@
-cosmic-files = COSMIC Dateien
+cosmic-files = Zinc Dateien
 empty-folder = Leerer Ordner
 empty-folder-hidden = Leerer Ordner (hat versteckte Elemente)
 no-results = Keine Ergebnisse gefunden
@@ -386,7 +386,7 @@ show-hidden-files = Versteckte Dateien anzeigen
 list-directories-first = Verzeichnisse zuerst auflisten
 gallery-preview = Galerie-Vorschau
 menu-settings = Einstellungen ...
-menu-about = Über COSMIC Dateien ...
+menu-about = Über Zinc Dateien ...
 
 ## Sortieren
 
@@ -421,7 +421,7 @@ pasted-video = Eingefügtes Video
 copy-to = Kopieren nach ...
 show-recents = Ordner zuletzt verwendeter Elemente in der Seitenleiste
 clear-recents-history = Verlauf zuletzt verwendeter Elemente leeren
-comment = Dateimanager für den COSMIC Desktop
+comment = Dateimanager für den Zinc Desktop
 keywords = Ordner;Manager;
 move-to-button-label = Verschieben
 move-to-title = Verschiebeziel auswählen

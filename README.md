@@ -1,5 +1,5 @@
-# cosmic-files
-File manager for the COSMIC desktop environment
+# zinc-files
+File manager for the Zinc desktop environment
 
 ## Build the project from source
 
@@ -16,8 +16,8 @@ cargo run --release
 
 ## Community and Contributing
 
-The COSMIC desktop environment is maintained by System76 for use in Pop!_OS. A list of all COSMIC projects can be found in the
-[cosmic-epoch](https://github.com/pop-os/cosmic-epoch) project's README. If you would like to discuss COSMIC and Pop!_OS, please
+The Zinc desktop environment is maintained by System76 for use in Pop!_OS. A list of all Zinc projects can be found in the
+[cosmic-epoch](https://github.com/ZincGluxx/zinc-desktop) project's README. If you would like to discuss Zinc and Pop!_OS, please
 consider joining the [Pop!_OS Chat](https://chat.pop-os.org/). More information and links can be found on the
 [Pop!_OS Website](https://pop.system76.com).
 

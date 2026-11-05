@@ -1,4 +1,4 @@
-cosmic-files = COSMIC Filer
+cosmic-files = Zinc Filer
 open-file = Opna fil
 empty-folder = Tom mappe
 cancel = Avbryt

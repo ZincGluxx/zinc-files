@@ -1,5 +1,5 @@
-cosmic-files = Soubory COSMIC
-comment = Správce souborů pro prostředí COSMIC
+cosmic-files = Soubory Zinc
+comment = Správce souborů pro prostředí Zinc
 keywords = Složka;Složky;Správce;Manažer;Prohlížeč;
 empty-folder = Složka je prázdná
 empty-folder-hidden = Složka je prázdná (obsahuje skryté položky)
@@ -131,7 +131,7 @@ list-view = Zobrazit jako seznam
 show-hidden-files = Zobrazit skryté soubory
 list-directories-first = Řadit nejprve složky
 menu-settings = Nastavení...
-menu-about = O aplikaci Soubory COSMIC...
+menu-about = O aplikaci Soubory Zinc...
 no-results = Nenalezeny žádné výsledky
 repository = Repozitář
 support = Podpora

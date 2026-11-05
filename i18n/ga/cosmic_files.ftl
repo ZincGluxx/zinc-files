@@ -1,4 +1,4 @@
-cosmic-files = Comhaid COSMIC
+cosmic-files = Comhaid Zinc
 empty-folder = Fillteán folamh
 empty-folder-hidden = Fillteán folamh (tá míreanna folaithe ann)
 no-results = Níor aimsíodh aon torthaí
@@ -372,7 +372,7 @@ show-hidden-files = Taispeáin comhaid fholaithe
 list-directories-first = Liostaigh eolairí ar dtús
 gallery-preview = Réamhamharc gailearaí
 menu-settings = Socruithe...
-menu-about = Maidir le Comhaid COSMIC...
+menu-about = Maidir le Comhaid Zinc...
 
 ## Sort
 
@@ -428,7 +428,7 @@ move-to-title = Roghnaigh ceann scríbe an bhogtha
 move-to-button-label = Bog
 copy-to = Cóipeáil chuig...
 move-to = Bog go...
-comment = Bainisteoir comhad don deasc COSMIC
+comment = Bainisteoir comhad don deasc Zinc
 keywords = Fillteán;Bainisteoir;
 show-recents = Fillteán le déanaí sa bharra taoibh
 clear-recents-history = Glan stair na n-earraí le déanaí
